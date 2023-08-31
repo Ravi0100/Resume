@@ -1,10 +1,7 @@
-/* Reset some default styles */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
-
-/* Basic styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -278,8 +275,6 @@ ul {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
-
-/* Styling for project titles */
 .project-title {
     color: #0077B5; /* LinkedIn blue color */
     margin-bottom: 10px;
@@ -315,8 +310,6 @@ ul {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
-
-/* Styling for the about description */
 .about-description {
     font-size: 16px;
     line-height: 1.6;
@@ -547,3 +540,21 @@ footer {
     box-shadow:0 0 0 2px var(--clr),
       0 0 0 6px #fff;
   }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
